@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Title</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+<div id="carousel" class="carousel">
+  <div id="slides-container" class="slides">
+    <div class="slide active" style="background-image: url('/src/image/1.jpg');"></div>
+    <div class="slide" style="background-image: url('/src/image/2.webp');"></div>
+    <div class="slide" style="background-image: url('/src/image/3.jpg');"></div>
+    <div class="slide" style="background-image: url('/src/image/4.jpg');"></div>
+    <div class="slide" style="background-image: url('/src/image/5.jpg');"></div>
+  </div>
+
+  <div id="indicators-container" class="indicators indicators-top">
+    <div class="indicator active" data-slide-to="0"></div>
+    <div class="indicator" data-slide-to="1"></div>
+    <div class="indicator" data-slide-to="2"></div>
+    <div class="indicator" data-slide-to="3"></div>
+    <div class="indicator" data-slide-to="4"></div>
+  </div>
+
+    <div id="controls-container" class="controls">
+    <div id="pause-btn" class="control control-pause">
+      <i class="fas fa-pause"></i>
+    </div>
+    <div id="prev-btn" class="control control-prev">
+      <i class="fas fa-chevron-left"></i>
+    </div>
+    <div id="next-btn" class="control control-next">
+      <i class="fas fa-chevron-right"></i>
+    </div>
+  </div>
+</div>
+
+  <!-- Розташування та імя файлу скрипта змінювати неможна -->
+  <script src="/src/main.js" type="module"></script>
+
+</body>
+
+</html>
